@@ -5,6 +5,12 @@
     background-size: cover;
 }
 
+@media (max-width: 600px){
+    .background-container{
+        background-position: left;
+    }
+}
+
 .cap-container{
     background: rgba(18, 17, 17, 0.884);
 }
@@ -16,6 +22,21 @@
     flex-direction: row;
     justify-content: space-between;
 }
+
+@media (max-width: 600px){
+    .cap{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 768px){
+    .cap{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
 
 .name-2{
 font-family: 'Yanone Kaffeesatz';
@@ -37,13 +58,41 @@ line-height: 28px;
 color: #FFFFFF;
 }
 
+@media (max-width: 600px){
+    .name-2{
+        text-align: center;
+    }
+}
+
+@media (max-width: 768px){
+    .name-2{
+        text-align: center;
+    }
+}
+
+
 .categories-container{
  display: flex;
  flex-direction: row;
  align-items: center;
  flex-wrap: wrap;
  
+ 
 }
+
+@media (max-width: 600px){
+    .categories-container{
+     
+    }
+}
+
+@media (max-width: 768px){
+    .categories-container{
+        display: flex;
+       justify-content: space-between;
+    }
+}
+
 
 .categories{
     font-family: 'Yanone Kaffeesatz';
@@ -70,11 +119,28 @@ text-decoration: none;
     flex-direction: row;
 }
 
+@media (max-width: 600px){
+    .container{
+        width: 100%;
+        box-sizing: border-box;
+        
+    }
+}
+
 .kruglyashi-pictures{
     display: flex;
     flex-direction: column;
     margin-top: 110px;
     margin-left: 40px;
+}
+
+@media (max-width: 600px){
+    .kruglyashi-pictures{
+        display: flex;
+        flex-direction: column;
+        margin-top: 80px;
+        margin-left: 0;
+    }
 }
 
 .kruglyashi{
@@ -255,6 +321,21 @@ left: 160px;
     margin-top: 30px;
 }
 
+@media (max-width: 600px){
+    .limiter-2{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .limiter-3{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    
+
+}
+
 .picture{
     background-image: url(Rectangle6.png);
     background-size: cover;
@@ -290,6 +371,8 @@ left: 160px;
     
 }
 
+
+
 .picture-5{
     background-image: url(Rectangle\ 10.png);
     background-size: cover;
@@ -305,6 +388,35 @@ left: 160px;
     background-position: center;
     height: 100%;
     width: calc(100% / 3);
+}
+
+@media (max-width: 600px){
+    .picture{
+        width: 100%;
+        margin: 10px 5px;
+        
+    }
+    .picture-2{
+        width: 100%;
+        margin: 10px 5px;
+    }
+    .picture-3{
+        width: 100%;
+        margin: 10px 5px;
+    }
+    .picture-4{
+        width: 100%;
+        margin: 10px 5px;
+        
+    }
+    .picture-5{
+        width: 100%;
+        margin: 10px 5px;
+    }
+    .picture-6{
+        width: 100%;
+        margin: 10px 5px;
+    }
 }
 
 
@@ -389,6 +501,14 @@ border: 1px solid #FFFFFF;
     padding: 30px 0;
 }
 
+@media (max-width: 600px){
+    .delimiter{
+        
+        flex-direction: column;
+        
+    }
+}
+
 .container_address{
     background: rgba(16, 16, 16, 0.86);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -396,11 +516,26 @@ border: 1px solid #FFFFFF;
     margin: 0 15px;
 }
 
+@media (max-width: 600px){
+    .container_address{
+        width: calc(100% / 1 - 60px);
+        margin: 15px 30px;
+    }
+}
+
+
 .column{
     display: flex;
     flex-direction: column;
     margin: 30px 20px;
 }
+
+@media (max-width: 600px){
+    .column{
+        text-align: center;
+    }
+}
+
 
 .column-text{
 font-family: 'Yanone Kaffeesatz';
@@ -438,6 +573,13 @@ color: #C88930;
     margin-top: 50px;
 }
 
+@media (max-width: 600px){
+    .row-info{
+        justify-content: center;
+    }
+}
+
+
 .telephone-icon{
    width: 27px;
    height: 27px;
@@ -465,6 +607,12 @@ color: #FFFFFF;
     flex-direction: row;
     align-items: center;
     margin-top: 10px;
+}
+
+@media (max-width: 600px){
+    .row-info-2{
+        justify-content: center;
+    }
 }
 
 
@@ -507,12 +655,28 @@ color: #FFFFFF;
     padding: 20px 60px;
  }
 
+ @media (max-width: 600px){
+    .class{
+        font-size: 40px;
+        padding: 10px 30px;
+        text-align: center;
+    }
+
+}
+
  .button-4{
     box-sizing: border-box;
     margin: 0 60px;
     padding-bottom: 20px;
 }
 
+@media (max-width: 600px){
+    .button-4{
+        display: flex;
+        justify-content: center;
+    }
+
+}
 
 .orange-button-4 {
     font-family: 'Yanone Kaffeesatz';
@@ -556,6 +720,24 @@ color: #FFFFFF;
     margin: 0 10px;
     
 }
+
+@media (max-width: 600px){
+    .background-photo{
+        width: 100%;
+       
+        
+    }
+    .background-photo-2{
+        width: 100%;
+        
+    }
+    .background-photo-3{
+        width: 100%;
+        
+    }
+   
+}
+
 
 .translucent{
     padding: 20px;
@@ -681,6 +863,14 @@ color: #FFFFFF;
     padding-bottom: 40px;
 }
 
+@media (max-width: 600px){
+    .school_contacts{
+       flex-direction: column;
+    }
+   
+}
+
+
 .transfers{
 
 font-style: normal;
@@ -688,6 +878,13 @@ font-weight: 400;
 font-size: 24px;
 line-height: 30px;
 color: #B9B5BD;
+}
+
+@media (max-width: 600px){
+    .transfers{
+        padding-left: 15px;
+    }
+
 }
 
 .touch{
@@ -700,6 +897,7 @@ color: #FFFFFF;
 padding-bottom: 20px;
 }
 
+
 .address-2{
  padding-top: 10px;
 font-style: normal;
@@ -708,6 +906,17 @@ font-size: 26px;
 line-height: 26px;
 color: #FFFFFF;
 }
+
+@media (max-width: 600px){
+    .touch{
+        text-align: center;
+    }
+
+    .address-2{
+        text-align: center;
+    }
+}
+
 
 .number-2{
 font-style: normal;
