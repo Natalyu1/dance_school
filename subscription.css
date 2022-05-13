@@ -341,55 +341,34 @@ left: 160px;
 }
 
 .picture{
-    background-image: url(Rectangle\ 9.png);
-    background-size: cover;
-    background-position: top;
-    
-    
-    
+    background-image: url(Rectangle\ 9.png);    
 }
 
 .picture-2{
-    background-image: url(Rectangle\ 7.png);
-    background-size: cover;
-    background-position: top;
-    
-    
+    background-image: url(Rectangle\ 7.png);  
 }
 
 .picture-3{
     background-image: url(Rectangle\ 11.png);
-    background-size: cover;
-    background-position: top;
-    
-   
 }
 
 .picture-4{
     background-image: url(Rectangle\ 8.png);
-    background-size: cover;
-    background-position: top;
-    
-   
-    
 }
 
 .picture-5{
-    background-image: url(Rectangle\ 10.png);
-    background-size: cover;
-    background-position: top;
-   
-    
+    background-image: url(Rectangle\ 10.png); 
 }
 
 .picture-6{
     background-image: url(Rectangle6.png);
-    background-size: cover;
-    background-position: center;
-    
-   
 }
 
+
+.dance{
+    background-size: cover;
+    background-position: top;
+}
 
 .for-container{
     background: #202021;
