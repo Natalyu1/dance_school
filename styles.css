@@ -490,7 +490,6 @@ border: 1px solid #FFFFFF;
 
 .background-container-5{
     background-image: url(background-2.png);
-    height: 100%;
 }
 
 .delimiter{
@@ -503,9 +502,7 @@ border: 1px solid #FFFFFF;
 
 @media (max-width: 600px){
     .delimiter{
-        
         flex-direction: column;
-        
     }
 }
 
@@ -635,12 +632,10 @@ color: #FFFFFF;
 
  .background-container-6{
      background: black;
-     height: 100%;
  }
 
  .backdrop{
      background-image: url(Rectangle_44.png);
-     height: 100%;
      background-position: center;
      background-size: cover;
  }
@@ -693,47 +688,29 @@ color: #FFFFFF;
 
 .background-photo{
     background-image: url(Rectangle_45.png);
-    height: 100%;
-    background-position: center;
-    background-size: cover;
-    width: calc(100% / 3 - 20px);
-    margin: 0 10px;
-    
-
 }
 
 .background-photo-2{
     background-image: url(Rectangle_51.png);
-    height: 100%;
-    background-position: center;
-    background-size: cover;
-    width: calc(100% / 3 - 20px);
-    margin: 0 10px;
 }
 
 .background-photo-3{
     background-image: url(Rectangle_53.png);
-    height: 100%;
-    background-position: center;
-    background-size: cover;
-    width: calc(100% / 3 - 20px);
-    margin: 0 10px;
+   
     
 }
 
+.criterion{
+    background-position: center;
+    background-size: cover;
+    width: calc(100% / 3 - 20px);
+    margin: 0 10px;  
+}
+
 @media (max-width: 600px){
-    .background-photo{
+    .criterion{
         width: 100%;
-       
-        
-    }
-    .background-photo-2{
-        width: 100%;
-        
-    }
-    .background-photo-3{
-        width: 100%;
-        
+        margin: 10px 0;
     }
    
 }

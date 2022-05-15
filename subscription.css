@@ -333,11 +333,16 @@ left: 160px;
 @media (max-width: 600px){
     .limiter-2{
         flex-direction: column;
+        padding: 0 10px;
     }
     .columns{
         width: 100%;
+        margin: 10px 0;
     }
-
+    .limiter-3{
+        flex-direction: column;
+        padding: 0 10px;
+    }
 }
 
 .picture{
@@ -366,6 +371,7 @@ left: 160px;
 
 
 .dance{
+    width: 100%;
     background-size: cover;
     background-position: top;
 }
