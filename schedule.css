@@ -4,6 +4,11 @@
     background-position: center;
     background-size: cover;
 }
+@media (max-width: 600px){
+    .background-container{
+        background-position: left;
+    }
+}
 
 .cap-container{
     background: rgba(18, 17, 17, 0.884);
@@ -16,6 +21,22 @@
     flex-direction: row;
     justify-content: space-between;
 }
+
+@media (max-width: 600px){
+    .cap{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 768px){
+    .cap{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
 
 .name-2{
 font-family: 'Yanone Kaffeesatz';
@@ -37,6 +58,18 @@ line-height: 28px;
 color: #FFFFFF;
 }
 
+@media (max-width: 600px){
+    .name-2{
+        text-align: center;
+    }
+}
+
+@media (max-width: 768px){
+    .name-2{
+        text-align: center;
+    }
+}
+
 .categories-container{
  display: flex;
  flex-direction: row;
@@ -44,6 +77,20 @@ color: #FFFFFF;
  flex-wrap: wrap;
  
 }
+
+@media (max-width: 600px){
+    .categories-container{
+     
+    }
+}
+
+@media (max-width: 768px){
+    .categories-container{
+        display: flex;
+       justify-content: space-between;
+    }
+}
+
 
 .categories{
     font-family: 'Yanone Kaffeesatz';
@@ -70,12 +117,31 @@ text-decoration: none;
     flex-direction: row;
 }
 
+@media (max-width: 600px){
+    .container{
+        width: 100%;
+        box-sizing: border-box;
+        
+    }
+}
+
+
 .kruglyashi-pictures{
     display: flex;
     flex-direction: column;
     margin-top: 110px;
     margin-left: 40px;
 }
+
+@media (max-width: 600px){
+    .kruglyashi-pictures{
+        display: flex;
+        flex-direction: column;
+        margin-top: 80px;
+        margin-left: 0;
+    }
+}
+
 
 .kruglyashi{
 box-sizing: border-box;
@@ -222,6 +288,21 @@ height: 9px;
     justify-content: space-between;
 }
 
+@media (max-width: 600px){
+    .limiter-2{
+        flex-direction: column;
+        padding: 0 10px;
+    }
+}
+
+@media (max-width: 768px){
+    .limiter-2{
+        flex-direction: column;
+        padding: 0 10px;
+    }
+}
+
+
 
 .heading{
 font-family: 'Yanone Kaffeesatz';
@@ -254,8 +335,33 @@ padding-left: 40px;
         margin-right: 15px;
     }
 
+    @media (max-width: 600px){
+        .definition{
+           width: 100%;
+        }
+    }
+    
+    @media (max-width: 768px){
+        .definition{
+           width: 100%;
+        }
+    }
+    
+
     .text-definition{
         padding-top: 150px;
+    }
+
+    @media (max-width: 600px){
+        .text-definition{
+           padding-left: 15px;
+        }
+    }
+    
+    @media (max-width: 768px){
+        .text-definition{
+           padding-left: 15px;
+        }
     }
 
     .introduction{
@@ -305,6 +411,21 @@ padding-left: 40px;
 
 }
 
+@media (max-width: 600px){
+    .photo-container{
+       width: 100%;
+       height: 100%;
+       margin: 0;
+    }
+}
+
+@media (max-width: 768px){
+    .photo-container{
+       width: 100%;
+       height: 100%;
+       margin: 0;
+    }
+}
    .photo{
     width: 100%;
     height: 100%;
@@ -327,6 +448,28 @@ padding-left: 40px;
     
     
 }
+
+@media (max-width: 600px){
+    .row{
+       width: 100%;
+    }
+    .row-2{
+        width: 100%;
+        margin: 10px 0;
+    }
+}
+
+@media (max-width: 768px){
+    .row{
+       width: 100%;
+    }
+    .row-2{
+        width: 100%;
+        margin: 10px 0;
+    }
+}
+
+
 
 .border{
     width: 50%;
@@ -418,6 +561,19 @@ background: #E89B2B;
     justify-content: flex-end;
 }
 
+@media (max-width: 600px){
+    .limiter-3{
+      padding: 0 10px;
+    }
+}
+
+@media (max-width: 768px){
+    .limiter-3{
+      padding: 0 10px;
+    }
+}
+
+
 .border_container-2{
     box-sizing: border-box;
     border: 1px solid #FFFFFF;
@@ -499,6 +655,14 @@ color: #FFFFFF;
    
 }
 
+@media (max-width: 768px){
+    .school_contacts{
+       flex-direction: column;
+    }
+   
+}
+
+
 
 .transfers{
 
@@ -510,6 +674,13 @@ color: #B9B5BD;
 }
 
 @media (max-width: 600px){
+    .transfers{
+        padding-left: 15px;
+    }
+
+}
+
+@media (max-width: 768px){
     .transfers{
         padding-left: 15px;
     }
@@ -537,6 +708,16 @@ color: #FFFFFF;
 }
 
 @media (max-width: 600px){
+    .touch{
+        text-align: center;
+    }
+
+    .address-2{
+        text-align: center;
+    }
+}
+
+@media (max-width: 768px){
     .touch{
         text-align: center;
     }
