@@ -289,8 +289,8 @@ font-size: 83px;
 line-height: 82px;
 color: rgba(255, 255, 255, 0.14);
 position: absolute;
-padding-top: 100px;
-padding-left: 120px;
+top: 100px;
+left: 120px;
 }
 
 .subtitle{
@@ -303,6 +303,20 @@ color: #FFFFFF;
 position: relative;
 top: 150px;
 left: 160px;
+}
+
+@media (min-width: 390px) and (max-width: 600px){
+    .heading{
+        left: 20px;
+        top: 60px;
+    }
+    .subtitle{
+      top: 110px;
+      left: 60px;
+        
+    }
+    
+
 }
 
 .background-container-4{

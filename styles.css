@@ -108,6 +108,7 @@ text-decoration: none;
 .limiter{
     max-width: 1024px;
     margin: 0 auto;
+    position: relative;
     
 }
 
@@ -287,8 +288,8 @@ font-size: 83px;
 line-height: 82px;
 color: rgba(255, 255, 255, 0.14);
 position: absolute;
-padding-top: 100px;
-padding-left: 120px;
+top: 100px;
+left: 120px;
 }
 
 .subtitle{
@@ -298,9 +299,23 @@ font-weight: 600;
 font-size: 34px;
 line-height: 34px;
 color: #FFFFFF;
-position: relative;
+position: absolute;
 top: 150px;
 left: 160px;
+}
+
+@media (min-width: 390px) and (max-width: 600px){
+    .heading{
+        left: 20px;
+        top: 60px;
+    }
+    .subtitle{
+      top: 110px;
+      left: 60px;
+        
+    }
+    
+
 }
 
 
@@ -325,11 +340,13 @@ left: 160px;
     .limiter-2{
         display: flex;
         flex-direction: column;
+        padding: 0 10px;
         
     }
     .limiter-3{
         display: flex;
         flex-direction: column;
+        padding: 0 10px;
         
     }
     
@@ -338,7 +355,6 @@ left: 160px;
 
 .picture{
     background-image: url(Rectangle6.png);
-    background-size: cover;
     background-position: center;
     height: 100%;
     width: calc(100% / 3);
@@ -347,16 +363,14 @@ left: 160px;
 
 .picture-2{
     background-image: url(Rectangle\ 7.png);
-    background-size: cover;
     background-position: center;
     height: 100%;
-    width: calc(100% / 3 - 30px);
+    width: calc(100% / 3);
     margin: 0 15px;
 }
 
 .picture-3{
     background-image: url(Rectangle\ 8.png);
-    background-size: cover;
     background-position: center;
     height: 100%;
     width: calc(100% / 3);
@@ -364,7 +378,6 @@ left: 160px;
 
 .picture-4{
     background-image: url(Rectangle\ 9.png);
-    background-size: cover;
     background-position: center;
     height: 100%;
     width: calc(100% / 3);
@@ -375,17 +388,15 @@ left: 160px;
 
 .picture-5{
     background-image: url(Rectangle\ 10.png);
-    background-size: cover;
     background-position: center;
     height: 100%;
-    width: calc(100% / 3 - 30px);
+    width: calc(100% / 3);
     margin: 0 15px;
 }
 
 .picture-6{
     background-image: url(Rectangle\ 11.png);
-    background-size: cover;
-    background-position: center;
+    background-position: top;
     height: 100%;
     width: calc(100% / 3);
 }
@@ -422,7 +433,7 @@ left: 160px;
 
 .for-container{
     background: #202021;
-    width: 50%;
+    width: 60%;
     height: 100%;
     margin-top: 230px;
     padding-top: 10px;
@@ -503,6 +514,7 @@ border: 1px solid #FFFFFF;
 @media (max-width: 600px){
     .delimiter{
         flex-direction: column;
+        padding: 0 10px;
     }
 }
 

@@ -330,39 +330,37 @@ padding-left: 40px;
         left: 80px;
     }
 
+    @media (min-width: 390px) and (max-width: 600px){
+        .heading{
+            left: 20px;
+            top: 60px;
+        }
+        .subtitle{
+          top: 110px;
+          left: 60px;
+            
+        }
+        
+    
+    }
+
     .definition{
         width: 60%;
         margin-right: 15px;
     }
 
-    @media (max-width: 600px){
+    @media (min-width: 390px) and (max-width: 600px){
         .definition{
            width: 100%;
         }
+       
     }
-    
-    @media (max-width: 768px){
-        .definition{
-           width: 100%;
-        }
-    }
-    
 
+    
     .text-definition{
         padding-top: 150px;
     }
 
-    @media (max-width: 600px){
-        .text-definition{
-           padding-left: 15px;
-        }
-    }
-    
-    @media (max-width: 768px){
-        .text-definition{
-           padding-left: 15px;
-        }
-    }
 
     .introduction{
         font-family: 'Yanone Kaffeesatz';
@@ -582,6 +580,13 @@ background: #E89B2B;
     align-items: center;
     width: 50%;
     justify-content: center;
+}
+
+@media (min-width: 390px) and (max-width: 600px){
+    .border_container-2{
+       width: 100%;
+    }
+   
 }
 
 .other{
