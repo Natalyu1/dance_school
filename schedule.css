@@ -78,18 +78,12 @@ color: #FFFFFF;
  
 }
 
-@media (max-width: 600px){
+@media (min-width: 390px) and (max-width: 768px){
     .categories-container{
      
     }
 }
 
-@media (max-width: 768px){
-    .categories-container{
-        display: flex;
-       justify-content: space-between;
-    }
-}
 
 
 .categories{
@@ -279,6 +273,13 @@ height: 9px;
     padding: 10px 0;
 }
 
+@media (min-width: 390px) and (max-width: 600px){
+    .background-container-3{
+       padding: 0;
+    }
+   
+}
+
 
 .limiter-2{
     max-width: 1024px;
@@ -288,18 +289,13 @@ height: 9px;
     justify-content: space-between;
 }
 
-@media (max-width: 600px){
+@media (min-width: 390px) and (max-width: 768px){
     .limiter-2{
         flex-direction: column;
         padding: 0 10px;
+        position: relative;
     }
-}
 
-@media (max-width: 768px){
-    .limiter-2{
-        flex-direction: column;
-        padding: 0 10px;
-    }
 }
 
 
@@ -313,8 +309,8 @@ line-height: 82px;
 color: rgba(255, 255, 255, 0.14);
 text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 position: absolute;
-padding-top: 60px;
-padding-left: 40px;
+top: 60px;
+left: 40px;
     }
     
 .subtitle{
@@ -337,7 +333,7 @@ padding-left: 40px;
         }
         .subtitle{
           top: 110px;
-          left: 60px;
+          left: 5px;
             
         }
         
@@ -490,6 +486,13 @@ line-height: 52px;
 color: #FFFFFF;
 }
 
+@media (min-width: 390px) and (max-width: 600px){
+    .week{
+       font-size: 24px;
+    }
+   
+}
+
 .button-2{
     box-sizing: border-box;
     width: 50%;
@@ -530,6 +533,14 @@ background: #E89B2B;
    line-height: 60px;
    color: #FFFFFF;
    padding: 20px 60px;
+}
+
+@media (min-width: 390px) and (max-width: 600px){
+    .class{
+       padding: 20px;
+       font-size: 39px;
+    }
+   
 }
 
 .button-4{
