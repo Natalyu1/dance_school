@@ -1,5 +1,5 @@
 .background-container{
-    background-image: url(background-1.png) ;
+    background-image: url(/icons/background-1.png) ;
     height: 100%;
     background-position: center;
     background-size: cover;
@@ -354,7 +354,7 @@ left: 160px;
 }
 
 .picture{
-    background-image: url(Rectangle6.png);
+    background-image: url(/icons/Rectangle6.png);
     background-position: center;
     height: 100%;
     width: calc(100% / 3);
@@ -362,7 +362,7 @@ left: 160px;
 }
 
 .picture-2{
-    background-image: url(Rectangle\ 7.png);
+    background-image: url(/icons/Rectangle\ 7.png);
     background-position: center;
     height: 100%;
     width: calc(100% / 3);
@@ -370,14 +370,14 @@ left: 160px;
 }
 
 .picture-3{
-    background-image: url(Rectangle\ 8.png);
+    background-image: url(/icons/Rectangle\ 8.png);
     background-position: center;
     height: 100%;
     width: calc(100% / 3);
 }
 
 .picture-4{
-    background-image: url(Rectangle\ 9.png);
+    background-image: url(/icons/Rectangle\ 9.png);
     background-position: center;
     height: 100%;
     width: calc(100% / 3);
@@ -387,7 +387,7 @@ left: 160px;
 
 
 .picture-5{
-    background-image: url(Rectangle\ 10.png);
+    background-image: url(/icons/Rectangle\ 10.png);
     background-position: center;
     height: 100%;
     width: calc(100% / 3);
@@ -395,7 +395,7 @@ left: 160px;
 }
 
 .picture-6{
-    background-image: url(Rectangle\ 11.png);
+    background-image: url(/icons/Rectangle\ 11.png);
     background-position: top;
     height: 100%;
     width: calc(100% / 3);
@@ -500,7 +500,7 @@ border: 1px solid #FFFFFF;
 }
 
 .background-container-5{
-    background-image: url(background-2.png);
+    background-image: url(/icons/background-2.png);
 }
 
 .delimiter{
@@ -647,7 +647,7 @@ color: #FFFFFF;
  }
 
  .backdrop{
-     background-image: url(Rectangle_44.png);
+     background-image: url(/icons/Rectangle_44.png);
      background-position: center;
      background-size: cover;
  }
@@ -699,15 +699,15 @@ color: #FFFFFF;
 }
 
 .background-photo{
-    background-image: url(Rectangle_45.png);
+    background-image: url(/icons/Rectangle_45.png);
 }
 
 .background-photo-2{
-    background-image: url(Rectangle_51.png);
+    background-image: url(/icons/Rectangle_51.png);
 }
 
 .background-photo-3{
-    background-image: url(Rectangle_53.png);
+    background-image: url(/icons/Rectangle_53.png);
    
     
 }
