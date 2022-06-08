@@ -1,5 +1,5 @@
 .background-container{
-    background-image: url(background-1.png) ;
+    background-image: url(/icons/background-1.png) ;
     height: 100%;
     background-position: center;
     background-size: cover;
@@ -360,27 +360,27 @@ left: 160px;
 }
 
 .picture{
-    background-image: url(Rectangle\ 9.png);    
+    background-image: url(/icons/Rectangle\ 9.png);    
 }
 
 .picture-2{
-    background-image: url(Rectangle\ 7.png);  
+    background-image: url(/icons/Rectangle\ 7.png);  
 }
 
 .picture-3{
-    background-image: url(Rectangle\ 11.png);
+    background-image: url(/icons/Rectangle\ 11.png);
 }
 
 .picture-4{
-    background-image: url(Rectangle\ 8.png);
+    background-image: url(/icons/Rectangle\ 8.png);
 }
 
 .picture-5{
-    background-image: url(Rectangle\ 10.png); 
+    background-image: url(/icons/Rectangle\ 10.png); 
 }
 
 .picture-6{
-    background-image: url(Rectangle6.png);
+    background-image: url(/icons/Rectangle6.png);
 }
 
 
@@ -513,7 +513,7 @@ border: 1px solid #FFFFFF;
 }
 
 .background-container-7{
-    background-image: url(background-2.png);
+    background-image: url(/icons/background-2.png);
     height: 100%;
 }
 
